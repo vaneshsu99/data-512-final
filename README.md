@@ -17,7 +17,7 @@ This analysis seeks to uncover gender imbalances in the Billboard Top 100 and Ho
 
 ### Billboard Top 100 from 1950-2015
 
-A dataset containing Billboard Top 100 songs from 1950-2015 can be found [here](https://github.com/kevinschaich/billboard). The data is in JSON format, and can be obtained by cloning the repo. The data appears to be part of an open source project and has an MIT license. This dataset contains the artists and lyrics for all the songs in the Billboard top 100 over several years so it would allow me to analyze the content of the lyrics and the artists associated with those songs.
+A dataset containing Billboard Top 100 songs from 1950-2015 can be found [here](https://github.com/kevinschaich/billboard). The data is in JSON format, and can be obtained by cloning the repo. It's also located in data-512-final/data/billboard/. The data appears to be part of an open source project and has an MIT license. This dataset contains the artists and lyrics for all the songs in the Billboard top 100 over several years so it would allow me to analyze the content of the lyrics and the artists associated with those songs.
 
 ```
 {
@@ -75,7 +75,7 @@ Another dataset that contains Billboard Hot 100 song features from 8/2/1958-12/2
 
 ### Billboard Top 100 Artists' Genders
 
-My final dataset is one containing artists' genders. This dataset can be found [here](https://www.kaggle.com/rkibria/singersgender). This dataset is from Kaggle and is available for public use. The fields for this dataset are described below. One thing to note is that this dataset only labels artists as "male" or "female". There are no labels for groups, and there are no labels for people who identify as nonbinary. This dataset is located in /data/singers_gender.csv.
+My final dataset is one containing artists' genders. This dataset can be found [here](https://www.kaggle.com/rkibria/singersgender). This dataset is from Kaggle and is available for public use. The fields for this dataset are described below. One thing to note is that this dataset only labels artists as "male" or "female". There are no labels for groups, and there are no labels for people who identify as nonbinary. This dataset is located in data-512-final/data/singers_gender.csv.
 
 | Field    | Type   | Description                             |
 |----------|--------|-----------------------------------------|
